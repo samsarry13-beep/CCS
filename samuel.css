@@ -1,0 +1,27 @@
+/* gobal css*/
+
+*{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: aqua;
+}
+
+h4 {
+    color: fuchsia;
+}
+
+.myclass {
+    color: rgb(18, 6, 245);
+}
+
+#myid {
+    color: seagreen;
+}
+
+h5,p {
+    color: darkorange;
+}
