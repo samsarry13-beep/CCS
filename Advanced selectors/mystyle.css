@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+}
+
+h1 {
+    color: coral
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+ul > li{
+    font-weight: bold;
+}
+
+p+p{
+    background-color: firebrick;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover{
+    color: yellow;
+}
+
+ul li:nth-child(3){
+    background-color: blue;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before{
+    content: "😄";
+}
